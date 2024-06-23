@@ -1,0 +1,14 @@
+.navbar {
+  display: flex;
+  padding: 10px;
+  color: white;
+}
+
+.navbar .toggle-button {
+  flex: 10%;
+}
+
+.navbar .navbar-header {
+  flex: 90%;
+  color: black;
+}

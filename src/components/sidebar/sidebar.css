@@ -1,0 +1,35 @@
+:root {
+  --sidebar-color: #c22222;
+}
+
+.offcanvas-body {
+  padding: unset;
+  /* background-color: var(--sidebar-color); */
+}
+ul {
+  list-style: none;
+  padding: 10px;
+}
+
+.nav-menu{
+    padding: 0;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
+
+.nav-links:hover{
+    background-color: rgb(21, 117, 201);
+    cursor: pointer;
+}
+
+.nav-icon {
+  flex: 10%;
+}
+
+.nav-item {
+  flex: 90%;
+}
